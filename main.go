@@ -21,7 +21,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "Deamon to expose RFXCOM devices to others"
 	app.Usage = "go-rfxbridge [options]"
-	app.Version = "0.0.1"
+	app.Version = "0.1.0"
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:  "listen-addr",
