@@ -6,10 +6,10 @@ pipeline:
   alpine:
     image: qnib/alplain-golang
     commands:
-      - mkdir -p bin/Alpine/v0.1.0
-      - govendor build -o bin/Alpine/v0.1.0/go-rfxbridge
+      - mkdir -p bin/Alpine/v0.1.1
+      - govendor build -o bin/Alpine/v0.1.1/go-rfxbridge
   x86:
       image: qnib/uplain-golang
       commands:
-        - mkdir -p bin/x86/v0.1.0
-        - govendor build -o bin/x86/v0.1.0/go-rfxbridge
+        - mkdir -p bin/x86/v0.1.1
+        - govendor build -o bin/x86/v0.1.1/go-rfxbridge
